@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "relocate": "mv node_modules/* static/*",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "katex": "^0.16.19"
+  }
+}
