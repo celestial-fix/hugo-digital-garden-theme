@@ -88,5 +88,17 @@ graph LR;
    F[width <br> 15cm] --> D
 {{< /mermaid >}}
 
+#### Math
+
+Testing that sweet in-line math: $\varphi = 1+\frac{1}{1+\frac{1}{1+\cdots}}$
+
+Block math:
+$$
+\mathcal L_{\mathcal T}(\vec{\lambda})
+= \sum_{(\mathbf{x},\mathbf{s})\in \mathcal T}
+    \log P(\mathbf{s}\mid\mathbf{x}) - \sum_{i=1}^m
+    \frac{\lambda_i^2}{2\sigma^2}
+$$
+
 ---
 <small>Red panda icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
