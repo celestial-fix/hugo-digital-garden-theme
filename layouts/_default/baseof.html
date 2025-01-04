@@ -3,6 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
+        {{ if or .Params.math .Site.Params.math }}
+        {{ partial "math.html" . }}
+        {{ end }}
         <div id="content">
             {{- block "main" . }}{{- end }}
         </div>
